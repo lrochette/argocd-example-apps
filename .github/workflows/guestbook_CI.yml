@@ -7,6 +7,7 @@ on:
     branches: [ master ]
     paths:
       - guestbook/**
+      - .github/workflows/guestbook_CI.yml
 jobs:
   build:
     environment:
