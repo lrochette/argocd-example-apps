@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: guestbook CICI
+name: guestbook CI
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [ master ]
+    paths:
+      - guestbook/**
 jobs:
   build:
     environment:
